@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>acceso</title>
+<link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+			<h1>Acceso</h1>
+		<form action="login" method="post">
+			<h4>Nombre: <input type="text" class="form-control" name="username"/></h4>
+			<br/>
+			<h4>Contraseña: <input type="password" class="form-control" name="password"/></h4>
+			<br/>
+			<input type="submit" value="Acceder">
+		</form>
+</body>
+</html>

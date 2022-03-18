@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+h1{
+	 	color:red;
+}
+
+a{
+	color:black
+}
+
+body{
+	text-align:center;
+	margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%; 	
+}

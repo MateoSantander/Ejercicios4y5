@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_inscripcion.css">
+</head>
+
+<body>
+    <main>
+        <header id="header2">
+            <h1>
+                <b>Formulario de Inscripción</b>
+            </h1>
+            <img id="img_berserk" src="img/imagen cabecera berserk.png" title="imagen de Guts con el sol negro" />
+        </header>
+        <section>
+            <h1>Registro de datos</h1>
+            <article>
+                <!--<form action="procesarPeticion.jsp" method="post">*/  Ya que no se encuentra
+                        implementada la accion, la dejamos comentada, y en su lugar la respuesta será
+                        retroceder a la página principal tras el registro-->
+                <form action="pagina_principal.html">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" autofocus />
+                    <input type="text" id="nick" name="Nickname" placeholder="Apodo" required />
+                    <input type="password" id="passw" name="password" placeholder="Contraseña" required />
+                    <input type="email" id="mail" name="email" placeholder="correo electrónico" required />
+                    <p>*Edad requerida +18*</p>
+                    <input type="number" id="edad" min="18" max="120" step="1" name="Edad" placeholder="Edad"
+                        required />
+                    <input type="tel" id="tel" name="teléfono" placeholder="teléfono" />
+                    <input type="submit" value="Registrarse" onclick="alert('Se ha registrado en nuestro foro')" />
+                    <input type="reset">
+                </form>
+                </marquee>
+            </article>
+            <br>
+            <marquee>
+                <img id="gif guts berserk" src="img/GUTS-DARK.gif" title="Esto es un gif de Guts" />
+            </marquee>
+        </section>
+        <footer>Todos los derechos memísticos están reservados</footer>
+    </main>
+
+</body>
+
+</html>

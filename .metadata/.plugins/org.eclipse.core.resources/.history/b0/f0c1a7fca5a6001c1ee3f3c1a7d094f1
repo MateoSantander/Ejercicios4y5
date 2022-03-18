@@ -1,0 +1,13 @@
+package modelo.entidad;
+
+public class identidad {
+		private String username;
+		private String password;
+		
+		public identidad() {
+			super();
+			
+		public String getNombre()
+			return username;
+		}
+}

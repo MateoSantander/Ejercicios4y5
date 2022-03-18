@@ -1,0 +1,89 @@
+h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(20, 27, 119);
+}
+
+h4{
+    color: aliceblue;
+    font-weight: 300;
+}
+a{
+    color: aliceblue;
+    font-weight: 300;
+}
+
+#descripcion{
+    font-size: large;
+    margin-left: 20%;
+}
+#titulacion{
+    text-align: center;
+    color: aliceblue;
+}
+
+header>img{
+    float: left;
+    max-width: 182px;
+    max-height: fit-content;
+}
+
+h1{
+     text-indent: 15px;
+     background-color: rgb(20, 27, 119);
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 5px solid #006;
+    overflow: auto;
+    background-color: rgb(20, 27, 119);
+}
+
+main>header {
+    width: 100%;
+    height: 200px;
+    background: #999;
+    margin-bottom: 10px;
+    background: rgb(35, 123, 236);
+    color: aliceblue;
+    font-weight: 300;
+    text-align: left;
+}
+
+section {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+    width: 300px;
+    height: 800px;
+    background: rgb(35, 123, 236);
+    float: right;
+}
+ .estudios {
+    margin-right: 10px;
+            width: 66%;
+            height: 700px;
+            float: left;
+            margin-bottom: 10px;
+            background: rgb(35, 123, 236);
+}
+
+#cuerpo{
+    color: aliceblue;
+    text-align: justify;
+}
+#nota,#especialidad{
+    color: aliceblue;
+    background-color: rgb(20, 27, 119);
+}
+article{
+    text-align: justify;
+    color: aliceblue;
+}

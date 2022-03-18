@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+nav>a{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #501010;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}

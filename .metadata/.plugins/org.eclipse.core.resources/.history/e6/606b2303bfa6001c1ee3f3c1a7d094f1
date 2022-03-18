@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+h1{
+	 color:rgb(rgb(255, 0, 0), green, blue);
+        text-align:center;
+        width:30%;
+        border-radius: 5prgb(0, 128, 255)kground-color:rgb(0, 128, 255)
+}
+button

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_CV</title>
+    <link rel="stylesheet" href="CVdesign.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="fotoPerfil2.jpg" />
+            <h1>Mateo Rodríguez Santander</h1>
+            <h3 id="descripcion">Soy un chico alegre, trabajador, sociable y empático al que le
+                apasiona la tecnología y cómo esta, a través de la innovación
+                constante y de diferentes aplicaciones, ayuda a solventar
+                numerosos problemas en la vida cotidiana de las personas</h3>
+        </header>
+
+        <section class="estudios">
+
+            <header>
+                <h2>Estudios:</h2>
+                <h2 id="titulacion">Ingeniería de Software(2016-Act.)</h2>
+                <h2 id="titulacion">Universidad Politécnica de Madrid</h2>
+            </header>
+            <article>
+                <h3 id="cuerpo">Siempre me he querido dedicar a una
+                    profesión que me permitiera ayudar a las personas y hacer
+                    de su vida una experiencia más sencilla y comfortable.
+                    Cuando me tocó escoger mis estudios, descubrí que esta
+                    ingeniería era la mejor opción, ya que a través de la
+                    tecnología puedo cumplir mi propósito principal sin
+                    renunciar a mi pasión por la informática.</h3>
+                    <br>
+                    <h3 id="nota">Nota media: Notable (7)</h3>
+                    <h3 id="especialidad">Especialización: Transformación digital y evolución software</h3>
+                    <h2>Formación extracadémica y voluntariado</h2>
+                    <h3>Natación: deportista de élite durante 10 años</h3>
+                    <h3>Balonmano: deportista federado durante 3 años</h3>
+                    <h3>Alumno de guitarra durante 2 años</h3>
+                    <h3>Animal (Gatoteca): cuidado y atención de colonias de gatos
+                        rescatados durante 3 años</h3>
+                    <h3>Educación: enseñanza ofimática y nuevas tecnologías a
+                        personas de la tercera edad durante 2 años</h3>
+            </article>
+
+        </section>
+
+        <section>
+            <header>
+                <h2>Datos de contacto</h2>
+            </header>
+            <h4>Teléfono: 662603700</h4>
+            <h4>mateorodriguezsantander@gmail.com</h4>
+            <a href="www.linkedin.com/in/mateorsantander" target="_blank">Perfil de LinkedIn</a>
+            <header>
+                <h2>Herramientas</h2>
+            </header>
+            <h4>GIT</h4>
+            <h4>SQL WB.</h4>
+            <h4>DOCKER</h4>
+            <header>
+                <h2>Lenguajes</h2>
+            </header>
+            <h4>JAVA</h4>
+            <h4>C</h4>
+            <h4>PYTHON</h4>
+            <h4>SCALA</h4>
+            <h4>HTML/CSS</h4>
+            <header>
+                <h2>Idiomas</h2>
+            </header>
+            <h4>ESPAÑOL --- NATIVO</h4>
+            <h4>INGLÉS --- B2</h4>
+            <h4>FRANCÉS --- A2</h4>
+        </section>
+    </main>
+</body>
+
+</html>
