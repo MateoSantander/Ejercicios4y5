@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>pag_error</title>
 <link rel="stylesheet" href="css/errorPage.css">
 </head>
 <body>

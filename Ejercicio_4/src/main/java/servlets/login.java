@@ -34,7 +34,7 @@ public class login extends HttpServlet {
     	 else {
     		 HttpSession sesion=request.getSession();
     		 sesion.setAttribute("nombre", nombre);
-             RequestDispatcher rd = request.getRequestDispatcher("index.html");  //utilicé jsp ya que con html no me cargaban las páginas
+             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
              rd.forward(request, response);
          }
 	}

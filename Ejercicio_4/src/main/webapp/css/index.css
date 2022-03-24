@@ -7,13 +7,16 @@ text-align:center;
 
 header>h1{
        
-       color:lightblue;
+        color:lightblue;
         text-align:center;
         border-radius: 5px;
        	background-color:white;
   }
- 
 
+h2{
+	    color:lightblue;
+        text-align:center;
+}
 nav>a{
 	text-align:center;
     margin-top: 50px;
